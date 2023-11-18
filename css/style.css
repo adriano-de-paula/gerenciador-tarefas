@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(80deg, #849b5c, #bfffc7);
+    color: #333;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background: #fff;
+    max-width: 450px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.formulario {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.formulario form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.formulario input {
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.formulario input:focus {
+    background: #f0f0f5;
+}
+
+.formulario button {
+    background: #688832;
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+
+    transition: background 0.3s;
+}
+
+.formulario button:hover {
+    background: #758f47;
+    cursor: pointer;
+}
+
+.divisor {
+    background: #d8d8d8;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.lista-tarefas {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.lista-tarefas ul {
+    list-style: none;
+}
+
+.lista-tarefas ul li {
+    background: #b3f8bc;
+    height: 50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    color: #4b4b4b;
+    padding: 12px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    transition: background 0.3s;
+}
+
+.lista-tarefas ul li:hover {
+    background: #a0fcac;
+    cursor: pointer;
+}
+
+.bt-limpar {
+    background: #688832;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 12px;
+    color: #fff;
+    
+
+    transition: background 0.3s;
+}
+
+.bt-limpar:hover {
+    background: #758f47;
+    cursor: pointer;
+}
+
+.rodape {
+    background: #f0f0f5;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.rodape p {
+    color: #999;
+    font-size: 12px;
+}
